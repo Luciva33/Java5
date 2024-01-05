@@ -10,6 +10,11 @@ public class Rensyuumonndai3 {
 		System.out.print("体重を入力してください(kg)>");
 		double weight=new java.util.Scanner(System.in).nextDouble();
 		System.out.printf("あなたのBMIは%.2fです。\n",getBMI(height,weight));
+		System.out.printf("あなたのBMIは%.2fです。\n",getBMI(height,weight));
+		System.out.printf("あなたのBMIは%.2fです。\n",getBMI(height,weight));
+		System.out.printf("あなたのBMIは%.2fです。\n",getBMI(height,weight));
+		System.out.printf("あなたのBMIは%.2fです。\n",getBMI(height,weight));
+		
 	}
 	/*
 	身長(cm)と体重(kg)を引数で受け取っとBMIを返却するメソッド
